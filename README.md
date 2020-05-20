@@ -18,17 +18,16 @@ Note that not all written functions are in the first script, since some examples
 The structure of the analysis code is the same as in the thesis. Namely:
 
 - Significance (IID)
-  - A first impression (row 47)       
-  - A fixed number of VaR exceedances (row 72)
+  - A first impression      
+  - A fixed number of VaR exceedances 
 - Power (IID)
-   - A first impression (row 119)
-   - Underestimated SD (row 134)
-   - A fixed number of VaR exceedances (row 181)
+   - A first impression 
+   - Underestimated SD 
+   - A fixed number of VaR exceedances 
 - Which role does the VaR play? (IID)
-   - Correct ES but wrong VaR prediction (row 224)
-   - Underestimated ES but correct VaR prediction (row 315)
-   - An example of deliberate deception (row 359)
+   - Correct ES but wrong VaR prediction 
+   - Underestimated ES but correct VaR prediction 
+   - An example of deliberate deception 
 - GARCH, the Non-IID-Setup
-   - Another example of underestimated SD (row 473)
-   - The analysis similar to Du and Escanciano (row 591)
-
+   - Another example of underestimated SD 
+   - The analysis similar to Du and Escanciano
