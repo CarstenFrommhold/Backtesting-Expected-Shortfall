@@ -8,3 +8,27 @@ With the Fundamental Review of the Trading Book, the Basel Committee on Banking 
 
 Value-at-Risk, Expected Shortfall, Elicitability, Backtesting,
 Model Validation, Regulatory Capital
+
+## Notes
+
+First, open "Libraries and functions", install/load all packages and read in the functions there.
+Second, perform analysis.R
+
+Note that not all written functions are in the first script, since some examples are based on VaR & ES Setups which one has to select first. One will see this below.
+The structure of the analysis code is the same as in the thesis. Namely:
+
+- Significance (IID)
+  - A first impression (row 47)       
+  - A fixed number of VaR exceedances (row 72)
+- Power (IID)
+   - A first impression (row 119)
+   - Underestimated SD (row 134)
+   - A fixed number of VaR exceedances (row 181)
+- Which role does the VaR play? (IID)
+   - Correct ES but wrong VaR prediction (row 224)
+   - Underestimated ES but correct VaR prediction (row 315)
+   - An example of deliberate deception (row 359)
+- GARCH, the Non-IID-Setup
+   - Another example of underestimated SD (row 473)
+   - The analysis similar to Du and Escanciano (row 591)
+
